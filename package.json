@@ -1,0 +1,17 @@
+{
+  "name": "express",
+  "version": "1.0.0",
+  "description": "Simple website server and api.",
+  "main": "app.js",
+  "scripts": {
+    "test": "nodemon server.js",
+    "server": "node server.js",
+    "api":"node api.js"
+  },
+  "author": "Cbot Labs Inc",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "nodemon": "^3.1.3"
+  }
+}
